@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nidhi Kirankumar Patel, MPH — Clinical Research</title>
+<meta name="description" content="Clinical Research Assistant on two NIH-funded clinical pharmacology studies at Johns Hopkins School of Medicine. Johns Hopkins MPH. Seeking coordinator roles in North Carolina.">
+<style>
+  :root{
+    --serif:ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+    --ink:#101d33; --ink-2:#3b4a63; --muted:#6a7893;
+    --accent:#1f3864; --accent-2:#2f5fa8; --line:#e2e7ef;
+    --bg:#ffffff; --bg-2:#f6f8fb; --bg-3:#eef2f8;
+    --max:1080px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); line-height:1.62; font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+
+  /* ---------- nav ---------- */
+  nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:18px}
+  .brand{font-weight:700;letter-spacing:-.01em;color:var(--accent);font-size:15px;white-space:nowrap}
+  .navlinks{display:flex;gap:24px;flex-wrap:wrap}
+  .navlinks a{color:var(--ink-2);text-decoration:none;font-size:14px;font-weight:500}
+  .navlinks a:hover{color:var(--accent-2)}
+  @media(max-width:760px){.navlinks{display:none}}
+
+  /* ---------- hero ---------- */
+  header{background:linear-gradient(168deg,#fbfcfe 0%,#eef2f8 100%);border-bottom:1px solid var(--line);padding:72px 0 58px}
+  .eyebrow{font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-2);margin-bottom:15px}
+  h1{font-family:var(--serif);font-size:clamp(32px,5.2vw,48px);line-height:1.1;letter-spacing:-.022em;font-weight:600;color:var(--accent);margin-bottom:10px}
+  .creds{font-size:clamp(15px,2vw,18px);color:var(--ink-2);font-weight:600;margin-bottom:20px}
+  .lede{font-size:clamp(16px,2.1vw,18.5px);color:var(--ink-2);max-width:70ch;margin-bottom:26px}
+  .lede strong{color:var(--ink);font-weight:650}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:13.5px;color:var(--ink-2);font-weight:550}
+  .chip b{color:var(--accent);font-weight:700}
+  .cta{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{display:inline-block;padding:12px 24px;border-radius:8px;font-size:14.5px;font-weight:600;text-decoration:none;transition:.16s;letter-spacing:.005em}
+  .btn-p{background:var(--accent);color:#fff}
+  .btn-p:hover{background:var(--accent-2)}
+  .btn-s{background:#fff;color:var(--accent);border:1px solid #c9d4e5}
+  .btn-s:hover{border-color:var(--accent-2);color:var(--accent-2)}
+
+  /* ---------- sections ---------- */
+  section{padding:64px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  .alt{background:var(--bg-2)}
+  h2{font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-2);margin-bottom:11px}
+  .h2sub{font-family:var(--serif);font-size:clamp(22px,3.1vw,29px);font-weight:600;letter-spacing:-.017em;color:var(--accent);margin-bottom:28px;line-height:1.24}
+
+  /* ---------- current role ---------- */
+  .role{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent-2);border-radius:12px;padding:28px 30px;margin-bottom:18px;box-shadow:0 1px 2px rgba(16,29,51,.04),0 8px 22px -14px rgba(16,29,51,.16)}
+  .role h3{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--accent);letter-spacing:-.012em;margin-bottom:4px}
+  .role .org{font-size:14.5px;color:var(--muted);margin-bottom:16px}
+  .role ul{list-style:none}
+  .role li{position:relative;padding-left:19px;margin-bottom:9px;font-size:15.2px;color:var(--ink-2)}
+  .role li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--accent-2)}
+  .role li strong{color:var(--ink);font-weight:650}
+
+  /* ---------- trials ---------- */
+  .trials{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:20px}
+  .trial{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px 26px;box-shadow:0 1px 2px rgba(16,29,51,.04),0 8px 22px -14px rgba(16,29,51,.16)}
+  .trial .tag{display:inline-block;background:var(--bg-3);color:var(--accent);font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:5px;margin-bottom:12px}
+  .trial h4{font-family:var(--serif);font-size:17.6px;font-weight:600;color:var(--accent);margin-bottom:9px;line-height:1.3;letter-spacing:-.01em}
+  .trial p{font-size:14.6px;color:var(--ink-2);margin-bottom:12px}
+  .trial dl{border-top:1px solid var(--line);padding-top:12px;font-size:13.6px}
+  .trial dt{color:var(--muted);font-weight:600;float:left;clear:left;width:96px}
+  .trial dd{color:var(--ink-2);margin-left:100px;margin-bottom:4px}
+
+  /* ---------- projects ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(16,29,51,.04),0 8px 22px -14px rgba(16,29,51,.16)}
+  .card .num{font-size:11.5px;font-weight:700;letter-spacing:.1em;color:var(--accent-2);margin-bottom:9px}
+  .card h3{font-family:var(--serif);font-size:18px;font-weight:600;color:var(--accent);line-height:1.28;margin-bottom:11px;letter-spacing:-.012em}
+  .card p{font-size:14.7px;color:var(--ink-2);margin-bottom:14px;flex-grow:1}
+  .result{background:var(--bg-3);border-radius:8px;padding:12px 15px;font-size:13.7px;color:var(--ink);margin-bottom:13px;font-weight:550;line-height:1.5}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag-s{background:var(--bg-2);border:1px solid var(--line);color:var(--muted);font-size:12px;padding:3px 9px;border-radius:5px;font-weight:550}
+
+  /* ---------- skills ---------- */
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px}
+  .skillgroup h3{font-size:11.5px;font-weight:700;letter-spacing:.15em;color:var(--accent-2);margin-bottom:11px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+  .skillgroup p{font-size:14.4px;color:var(--ink-2)}
+
+  /* ---------- timeline ---------- */
+  .tl{border-left:2px solid var(--bg-3);padding-left:24px;margin-left:6px}
+  .tl-item{position:relative;margin-bottom:26px}
+  .tl-item::before{content:"";position:absolute;left:-31px;top:6px;width:11px;height:11px;border-radius:50%;background:#fff;border:2.5px solid var(--accent-2)}
+  .tl-item .yr{font-size:12.5px;font-weight:700;letter-spacing:.05em;color:var(--accent-2);text-transform:uppercase}
+  .tl-item h3{font-family:var(--serif);font-size:17.6px;font-weight:600;color:var(--accent);margin:3px 0 4px;letter-spacing:-.01em}
+  .tl-item .org{font-size:14.3px;color:var(--muted);margin-bottom:7px}
+  .tl-item p{font-size:14.7px;color:var(--ink-2)}
+
+  /* ---------- pubs ---------- */
+  .pub{background:#fff;border:1px solid var(--line);border-radius:9px;padding:18px 22px;margin-bottom:13px;font-size:14.7px;color:var(--ink-2)}
+  .pub strong{color:var(--ink)}
+  .pub em{color:var(--muted)}
+
+  .edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+  .edu-item{background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent-2);border-radius:12px;padding:24px 26px;box-shadow:0 1px 2px rgba(16,29,51,.04),0 8px 22px -14px rgba(16,29,51,.16)}
+  .edu-item h3{font-family:var(--serif);font-size:18.5px;font-weight:600;color:var(--accent);margin-bottom:5px;letter-spacing:-.012em;line-height:1.3}
+  .edu-item .org{font-size:14.4px;color:var(--ink-2);margin-bottom:3px}
+  .edu-item .yr{font-size:12.4px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent-2);margin-bottom:10px}
+  .edu-item p{font-size:14.4px;color:var(--muted)}
+  .creds-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+  .credgroup h3{font-size:11.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--accent-2);margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+  .credgroup ul{list-style:none}
+  .credgroup li{position:relative;padding-left:16px;margin-bottom:8px;font-size:14.3px;color:var(--ink-2)}
+  .credgroup li::before{content:"";position:absolute;left:0;top:9px;width:4px;height:4px;border-radius:50%;background:var(--accent-2)}
+  .credgroup li b{color:var(--ink);font-weight:650}
+  /* ---------- certs ---------- */
+  .certs{display:flex;flex-wrap:wrap;gap:9px}
+  .cert{background:#fff;border:1px solid var(--line);border-radius:7px;padding:9px 15px;font-size:13.8px;color:var(--ink-2);font-weight:550}
+  .cert b{color:var(--accent);font-weight:700}
+
+  /* ---------- contact ---------- */
+  .contact{background:var(--accent);color:#fff;padding:54px 0;text-align:center}
+  .contact h2{color:#9fb8de}
+  .contact .h2sub{color:#fff;margin-bottom:12px}
+  .contact p{color:#c3d2e8;max-width:58ch;margin:0 auto 26px;font-size:16px}
+  .contact .cta{justify-content:center}
+  .btn-w{background:#fff;color:var(--accent)}
+  .btn-w:hover{background:#e8eefa}
+  .btn-o{background:transparent;color:#fff;border:1px solid #6b86b4}
+  .btn-o:hover{border-color:#fff}
+  footer{padding:26px 0;text-align:center;font-size:13px;color:var(--muted);background:var(--bg-2);border-top:1px solid var(--line)}
+
+  @media print{nav,.cta,.contact .cta{display:none}body{font-size:11pt}section{padding:18px 0;break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <div class="brand">Nidhi K. Patel, MPH</div>
+  <div class="navlinks">
+    <a href="index.html" style="color:#2f5fa8;font-weight:700">Clinical Research</a>
+    <a href="drug-safety.html">Drug Safety</a>
+    <a href="research-admin.html">Research Admin</a>
+    <a href="regulatory.html">Regulatory</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div></nav>
+
+<header><div class="wrap">
+  <div class="eyebrow">Clinical Research · Relocating to North Carolina</div>
+  <h1>Nidhi Kirankumar Patel</h1>
+  <div class="creds">MPH, Johns Hopkins · Certified in Public Health</div>
+  <p class="lede">
+    <strong>Clinical Research Assistant</strong> in clinical pharmacology at
+    Johns Hopkins School of Medicine, supporting two active NIH-funded studies — a pediatric ADHD trial evaluating a single dose of methylphenidate against
+    fMRI and biomarker endpoints, and a midlife schizophrenia biomarker study. I work the full study lifecycle:
+    recruitment and telephone screening, informed consent and pediatric assent, cognitive assessment, biospecimen
+    collection and processing, neuroimaging coordination, and the IRB and documentation work that keeps a protocol
+    audit-ready. <strong>Medical training and four years of clinical practice</strong> inform participant assessment,
+    venipuncture, and the clinical judgment to determine when a participant should not proceed.
+  </p>
+  <div class="meta">
+    <span class="chip"><b>2</b> active NIH studies</span>
+    <span class="chip"><b>n=330</b> combined study population</span>
+    <span class="chip"><b>4 yrs</b> direct patient care</span>
+    <span class="chip"><b>ICH-GCP</b> E6(R3) certified</span>
+    <span class="chip"><b>Epic</b> · OnCore · REDCap · DocuSign</span>
+  </div>
+  <div class="cta">
+    <a class="btn btn-p" href="#contact">Get in touch</a>
+    <a class="btn btn-s" href="#current">See current research</a>
+  </div>
+</div></header>
+
+<section id="current"><div class="wrap">
+  <div class="h2sub">Current Appointment</div>
+
+  <div class="role">
+    <h3>Clinical Research Assistant, Clinical Pharmacology — Bigos Lab</h3>
+    <div class="org">Johns Hopkins University School of Medicine, Department of Medicine · Baltimore, MD · August 2026 – Present</div>
+    <ul>
+      <li>Support <strong>two human-subjects clinical pharmacology studies</strong>: a pediatric ADHD study evaluating a single dose of methylphenidate with fMRI and biomarkers (n=80), and a midlife schizophrenia biomarker study (n=250).</li>
+      <li>Conduct participant <strong>recruitment and telephone screening</strong>, informed consent and pediatric assent, and cognitive and behavioral assessments per study protocol.</li>
+      <li>Collect and process <strong>biological samples</strong> and coordinate <strong>fMRI / neuroimaging data collection</strong>.</li>
+      <li>Maintain research documentation, <strong>IRB materials, and data integrity</strong> in Epic and OnCore (CTMS); manage consent via DocuSign under <strong>Good Clinical Practice</strong> and applicable regulatory requirements.</li>
+      <li>Perform <strong>participant data entry</strong> and prepare and submit study data against <strong>NIH reporting requirements</strong>.</li>
+      <li>Contribute to <strong>manuscript preparation and scientific writing</strong> for study outputs.</li>
+      <li>Coordinate across the study team — <strong>principal investigator, neuroimaging staff, laboratory personnel, and participants and their caregivers</strong> — and interface with the <strong>IRB</strong> on protocol documentation.</li>
+      <li>Process <strong>participant reimbursements and study petty-cash records</strong>, supporting day-to-day study operations.</li>
+    </ul>
+  </div>
+
+  <div class="trials">
+    <div class="trial">
+      <span class="tag">Pediatric · Single-Dose · fMRI</span>
+      <h4>Multimodal Brain Imaging of the Neural Effects of Methylphenidate in ADHD</h4>
+      <p>Evaluating a single dose of methylphenidate against fMRI and biomarker endpoints in children and adolescents with ADHD, correlating task-based brain activity and brain chemistry with cognitive performance.</p>
+      <dl>
+        <dt>Registry</dt><dd>NCT04781972</dd>
+        <dt>Funding</dt><dd>NIMH R01MH133453</dd>
+        <dt>Population</dt><dd>n = 80 · ages 6–17</dd>
+        <dt>Site</dt><dd>Johns Hopkins School of Medicine</dd>
+      </dl>
+    </div>
+    <div class="trial">
+      <span class="tag">Adult · Biomarker</span>
+      <h4>Midlife Schizophrenia Biomarker Study</h4>
+      <p>Functional neuroimaging and genetics as biomarkers in neuropsychiatric drug development, with a precision-medicine focus on patient-level variables affecting drug clearance and clinical response.</p>
+      <dl>
+        <dt>Cohort</dt><dd>n = 250</dd>
+        <dt>Approach</dt><dd>fMRI + biomarkers</dd>
+        <dt>Focus</dt><dd>Midlife schizophrenia</dd>
+        <dt>Lab</dt><dd>Bigos Lab, JHU SOM</dd>
+      </dl>
+    </div>
+  </div>
+</div></section>
+
+<section id="projects" class="alt"><div class="wrap">
+  <div class="h2sub">Selected Research</div>
+  <div class="grid">
+
+    <div class="card">
+      <div class="num">PROJECT 01</div>
+      <h3>NNIPS Follow-Up — Prenatal Micronutrient Supplementation, Physical Activity, Sleep &amp; Child Cognition</h3>
+      <p>Follow-up study of children born to women enrolled in the Nepal Nutrition Intervention Project, Sarlahi (NNIPS) prenatal micronutrient supplementation trial, quantifying the long-term impact of supplementation on child cognition with objectively measured physical activity and sleep as candidate mediators. Aims span actigraphy-based characterization of activity and sleep in a rural LMIC setting, the effect of IFA, IFA+Zinc, and multiple-micronutrient regimens on those patterns, and whether they mediate cognitive outcomes. I appraised the protocols and codebooks, built the variable-selection framework, and prepared the dataset for analysis in R. Johns Hopkins Department of International Health.</p>
+      <div class="result">25 protocols reviewed · 564 → 418 variables screened (26% reduction) · dataset prepared for analysis in R · documentation coordinated across faculty, doctoral students, and analysts</div>
+      <div class="tags"><span class="tag-s">Protocol &amp; Codebook Review</span><span class="tag-s">Variable Mapping</span><span class="tag-s">Actigraphy Data</span><span class="tag-s">Mediation Design</span><span class="tag-s">R</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 02</div>
+      <h3>MPH Capstone — Micronutrients, Activity, Sleep &amp; Cognition Pathways</h3>
+      <p>PRISMA-guided pathway-based literature review examining how micronutrient status, physical activity, and sleep jointly shape cognitive development in school-aged children. Advisor: Heyjun Park, PhD.</p>
+      <div class="result">121 records screened · 8 studies synthesized across 9 countries · identified that only 1 of 8 formally tested a mediation pathway</div>
+      <div class="tags"><span class="tag-s">Systematic Review</span><span class="tag-s">Rayyan</span><span class="tag-s">Covidence</span><span class="tag-s">Critical Appraisal</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 03</div>
+      <h3>Improving Early Detection and Reducing Overlooked Cases in Breast and Cervical Cancer: A Systematic Review of Artificial Intelligence-Enhanced Screening Pathways</h3>
+      <p>Seven-author international review of AI-assisted breast and cervical cancer screening, coordinated across three institutions in India and the United States. Co-designed the search strategy, applied eligibility criteria across six databases, and led manuscript development as corresponding author. PROSPERO-registered and submitted for publication.</p>
+      <div class="result">161 full-text records assessed · 22 studies included · QUADAS-2 applied throughout</div>
+      <div class="tags"><span class="tag-s">PRISMA 2020</span><span class="tag-s">QUADAS-2</span><span class="tag-s">Evidence Synthesis</span><span class="tag-s">Scientific Writing</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 04</div>
+      <h3>Health Literacy &amp; Participant-Facing Materials</h3>
+      <p>Conducted a health-literacy environment scan, SMOG readability analysis, and website suitability assessment; designed and revised patient education materials through draft and final review.</p>
+      <div class="result">Directly applicable to informed consent readability — a persistent site-level and IRB compliance concern</div>
+      <div class="tags"><span class="tag-s">SMOG Analysis</span><span class="tag-s">Plain Language</span><span class="tag-s">Health Literacy</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 05</div>
+      <h3>Policy Analysis — Behavioral Risk Factors of Social Media Use Among Maryland Youth</h3>
+      <p>Johns Hopkins practicum examining behavioral risk factors of social media use among Maryland youth, synthesizing national evidence and datasets into prioritized, costed recommendations for state legislative consideration.</p>
+      <div class="result">10+ studies and national datasets synthesized · 3 recommendations prioritized via an impact–feasibility–cost framework</div>
+      <div class="tags"><span class="tag-s">Policy Analysis</span><span class="tag-s">Evidence Synthesis</span><span class="tag-s">Behavioral Health</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 06</div>
+      <h3>Rural Health Facility Leadership &amp; Quality Assurance</h3>
+      <p>Directed a government referral hospital and community health centre, implementing national screening programs and leading quality-assurance audits under India's National Quality Assurance Standards.</p>
+      <div class="result">15,000+ patient catchment · 20-person multidisciplinary team · 2,500+ deliveries · 2024 Chandipura outbreak response coordinated with district health authorities</div>
+      <div class="tags"><span class="tag-s">Team Leadership</span><span class="tag-s">Quality Audits</span><span class="tag-s">Disease Surveillance</span><span class="tag-s">Program Implementation</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 07</div>
+      <h3>OncoTwin — Federated AI Digital Twin for Oncology Decision Support</h3>
+      <p>Led a four-person team in a Johns Hopkins case competition to design a multimodal AI pipeline spanning machine learning, NLP, and deep learning, with an accompanying business and go-to-market case.</p>
+      <div class="result">Projected 30% reduction in toxicity-related hospitalizations · payback within 12 months</div>
+      <div class="tags"><span class="tag-s">AI in Healthcare</span><span class="tag-s">Machine Learning</span><span class="tag-s">NLP</span><span class="tag-s">Team Leadership</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 08</div>
+      <h3>LifeCourse AI — Public Health Navigation Platform</h3>
+      <p>Conceptualized an AI platform for health education and benefits access across Medicaid, WIC, and SNAP, with a life-stage personalization model and competitive analysis.</p>
+      <div class="result">Presented at the Johns Hopkins AI + Health Care Idea Tank</div>
+      <div class="tags"><span class="tag-s">Applied AI</span><span class="tag-s">Health Equity</span><span class="tag-s">Product Strategy</span><span class="tag-s">User Flow Design</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 09</div>
+      <h3>CARE — Privacy-First Student Wellbeing Dashboard</h3>
+      <p>Co-designed a privacy-first learning-management dashboard with three intelligent layers — early warning, behavior-aware planner, and support navigation — built on a dual-layer privacy model. Team of five.</p>
+      <div class="result">Projected 20–25% fewer missed deadlines and ~30% less tool-management time</div>
+      <div class="tags"><span class="tag-s">Product Design</span><span class="tag-s">Privacy by Design</span><span class="tag-s">Behavioral Science</span><span class="tag-s">Digital Health</span></div>
+    </div>
+
+    <div class="card">
+      <div class="num">PROJECT 10</div>
+      <h3>UrbanEVac — Customer Discovery &amp; Stakeholder Research</h3>
+      <p>Analyzed interviews with EMS, military, and disaster-response stakeholders to build personas and product requirements for an urban evacuation system. Pitched at the Pava Marie LaPere Center for Entrepreneurship (Pava Center), Johns Hopkins. Team of five.</p>
+      <div class="result">~10 stakeholder interviews across three professional domains · 3–5 personas and a product requirements set · pitched at the Pava Center</div>
+      <div class="tags"><span class="tag-s">Stakeholder Research</span><span class="tag-s">Customer Discovery</span><span class="tag-s">Persona Development</span><span class="tag-s">Product Strategy</span></div>
+    </div>
+
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="h2sub">Areas of Expertise</div>
+  <div class="skills">
+    <div class="skillgroup">
+      <h3>TRIAL OPERATIONS</h3>
+      <p>Informed consent &amp; pediatric assent · Participant recruitment, pre-screening &amp; eligibility · Study visit coordination · Protocol adherence · Source documentation · Biospecimen collection · MRI/neuroimaging data collection · Cognitive &amp; behavioral assessment administration</p>
+    </div>
+    <div class="skillgroup">
+      <h3>REGULATORY &amp; COMPLIANCE</h3>
+      <p>ICH-GCP E6(R3) · IRB submissions, amendments &amp; continuing review · Protocol deviation logging · AE/SAE reporting · Regulatory binder &amp; essential documents · Human subjects protection (CITI) · Responsible conduct of research · HIPAA &amp; participant privacy</p>
+    </div>
+    <div class="skillgroup">
+      <h3>DATA MANAGEMENT &amp; ANALYSIS</h3>
+      <p>Study protocol &amp; codebook review · Variable selection &amp; mapping · Secondary data analysis · Data cleaning &amp; validation · Query resolution · Epidemiology &amp; biostatistics · Data visualization</p>
+    </div>
+    <div class="skillgroup">
+      <h3>BUDGET, OPERATIONS &amp; TEAM MANAGEMENT</h3>
+      <p>Study budget &amp; petty cash administration · Participant reimbursement processing · Grant budget compliance · Financial tracking &amp; reporting · Cost analysis &amp; optimization · Conference &amp; event budget management · Project planning &amp; execution · Program implementation &amp; evaluation · Resource allocation · Team leadership (20-person multidisciplinary team) · Quality improvement &amp; audit (NQAS) · Vendor &amp; stakeholder coordination</p>
+    </div>
+    <div class="skillgroup">
+      <h3>EVIDENCE SYNTHESIS &amp; WRITING</h3>
+      <p>PRISMA 2020 systematic review · PROSPERO registration · QUADAS-2 risk of bias · Search strategy design · Evidence tables · Critical appraisal · Manuscript preparation · Scientific presentation</p>
+    </div>
+    <div class="skillgroup">
+      <h3>SOFTWARE &amp; PLATFORMS</h3>
+      <p>Epic · OnCore (CTMS) · REDCap · DocuSign · Qualtrics · R · SQL · Tableau · Excel (Power Query, VLOOKUP, PivotTables) · Rayyan · Covidence · PubMed · EpiData · Epi Info · Lucidchart · Visio · Canvas · Zoom · Teams · Slack</p>
+    </div>
+    <div class="skillgroup">
+      <h3>CLINICAL</h3>
+      <p>Patient assessment &amp; history-taking · Venipuncture &amp; IV cannulation · Emergency &amp; acute care · Maternal &amp; child health · Neonatal care · Pharmacology &amp; pharmacovigilance (ADR monitoring) · Medical documentation · Patient counseling</p>
+    </div>
+
+    <div class="skillgroup">
+      <h3>TEACHING &amp; COMMUNICATION</h3>
+      <p>Curriculum &amp; assessment design · Adult learning &amp; instruction · Health literacy &amp; plain-language writing (SMOG) · Health communication · Student mentorship · Cross-cultural communication</p>
+    </div>
+    <div class="skillgroup">
+      <h3>LANGUAGES</h3>
+      <p>English (professional working) · Hindi (native / bilingual) · Gujarati (native / bilingual)</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="background" class="alt"><div class="wrap">
+  <div class="h2sub">Professional History</div>
+  <div class="tl">
+    <div class="tl-item">
+      <div class="yr">May 2026 · Aug 2026 – Present</div>
+      <h3>AI Systems &amp; Digital Strategy Associate</h3>
+      <div class="org">Royal Expression Travels LLC · Baltimore, MD · Unpaid internship, flexible schedule</div>
+      <p>Designed client-discovery questionnaires for an AI chatbot and voice-message intake system using large language models, standardizing intake and reducing manual coordination. Contributed to an ExportMD grant application to the Maryland Department of Commerce.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Aug 2025 – May 2026</div>
+      <h3>Research Assistant, Human Nutrition</h3>
+      <div class="org">Johns Hopkins Bloomberg School of Public Health, Department of International Health · Supervisor: Heyjun Park, PhD</div>
+      <p>Reviewed ~25 study protocols and codebooks and screened 564 variables to 418, building a reusable variable-selection framework that unblocked a planned secondary analysis of the Nepal Nutrition Intervention Project, Sarlahi (NNIPS) follow-up cohort. Prepared the dataset for analysis in R and coordinated documentation across a distributed team of faculty, doctoral students, and analysts.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Jan – Apr 2026</div>
+      <h3>Course Assistant, Responsible Conduct of Research</h3>
+      <div class="org">Johns Hopkins University — R3 Center, Whiting School of Engineering · Remote</div>
+      <p>Supported delivery of a graduate research-ethics course to ~130 students across two sections, covering research integrity, authorship, data management, conflicts of interest, and human-subjects protections — the framework governing consent and IRB compliance in trial work.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Jan – Apr 2026</div>
+      <h3>Teaching Assistant, Social &amp; Behavioral Determinants of Health</h3>
+      <div class="org">Johns Hopkins University — Krieger School of Arts &amp; Sciences · Baltimore, MD</div>
+      <p>Instructed 75 undergraduates across two quarters in health-behavior theory, behavioral assessment, and the social-ecological model — the theoretical basis for the cognitive and behavioral assessment batteries I now administer on active protocols.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Oct 2024 – Jun 2025</div>
+      <h3>Junior Resident &amp; Tutor, Pharmacology</h3>
+      <div class="org">GMERS Medical College, Godhra · Government of Gujarat, India</div>
+      <p>Taught pharmacology to a full second-year MBBS cohort of ~100 students — drug mechanisms, adverse effects, and interactions. Contributed to departmental adverse drug reaction monitoring and institutional ethics-committee review.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Aug – Oct 2024</div>
+      <h3>Medical Officer</h3>
+      <div class="org">Bhagyoday General Hospital (Gayatri Parivaar Trust), Ghoghamba · India</div>
+      <p>Delivered outpatient, inpatient, and emergency care including 24-hour coverage for surgical, obstetric, and delivery patients. Assisted in critical newborn and neonatal intensive care, counseled families, and coordinated specialist referral.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Aug 2023 – Aug 2024</div>
+      <h3>Medical Officer (In-Charge)</h3>
+      <div class="org">Family Referral Hospital &amp; Community Health Centre, Ghoghamba · Government of Gujarat, India</div>
+      <p>Directed primary care and emergency services for a 15,000+ patient catchment, leading a 20-person multidisciplinary team. Attended 2,500+ deliveries and managed 500+ medico-legal cases. Implemented national screening programs, established a free adolescent clinic, coordinated the 2024 Chandipura outbreak response with district health authorities and community health workers, and led NQAS quality-assurance audits.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">Apr 2022 – Apr 2023</div>
+      <h3>Intern Doctor <span style="font-weight:500;color:var(--muted)">(12-month rotating internship)</span></h3>
+      <div class="org">Civil Hospital, Ahmedabad · 2,800+ bed government tertiary-care hospital, India</div>
+      <p>Completed rotations across Medicine, Surgery, Pediatrics, Obstetrics &amp; Gynecology, Emergency Medicine, and Community Health. Conducted history-taking, clinical examination, diagnostic evaluation, and treatment planning; assisted in procedures under supervision.</p>
+    </div>
+    <div class="tl-item">
+      <div class="yr">2021 – 2022</div>
+      <h3>COVID-19 Healthcare Volunteer</h3>
+      <div class="org">Civil Hospital, Ahmedabad · India</div>
+      <p>Delivered continuous inpatient COVID-19 care through peak surge, applying intravenous cannulation, medication reconciliation, and clinical delegation under sustained high-acuity conditions; coordinated logistics for fellow volunteers.</p>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="h2sub">Education</div>
+  <div class="edu-grid">
+    <div class="edu-item">
+      <h3>Master of Public Health (MPH)</h3>
+      <div class="org">Johns Hopkins Bloomberg School of Public Health · Baltimore, Maryland</div>
+      <div class="yr">June 2025 – May 2026</div>
+      <p>Focus: epidemiology, biostatistics, research design, implementation science, behavioral and mental health, nutrition, behavioral economics, budgeting and financial management, and applied AI and digital health.</p>
+    </div>
+    <div class="edu-item">
+      <h3>Bachelor of Medicine, Bachelor of Surgery (MBBS)</h3>
+      <div class="org">Byramjee Jeejeebhoy Medical College, Gujarat University · Ahmedabad, India</div>
+      <div class="yr">2017 – 2023</div>
+      <p>Equivalent to a U.S. M.D. · WES-evaluated GPA 3.89 · Includes a 12-month rotating clinical internship at a 2,800+ bed tertiary-care hospital.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="publications"><div class="wrap">
+  <div class="h2sub">Publications &amp; Scholarship</div>
+  <div class="pub">
+    <strong>Patel N.K.</strong>, Zapadia V.K., Chauhan S.R., Rathod D.M., Patel K.R.
+    Prevalence of Overweight/Obesity Among Novice Female Students of Medical and Paramedical Colleges in Ahmedabad, India: A Comparative Study Between 2011 and 2021.
+    <em>International Journal of Scientific Research.</em> 2023;12(3):85–87. DOI: 10.36106/ijsr/8018750.
+    <em>First author · cross-sectional study, n = 342.</em>
+  </div>
+  <div class="pub">
+    Parekh D.V., Jani B.V., Dey R., Acharya A., Sardar S., Mandal S., <strong>Patel N.</strong> (corresponding author).
+    Improving early detection and reducing overlooked cases in breast and cervical cancer: a systematic review of AI-enhanced screening pathways.
+    <em>Submitted for publication.</em>
+  </div>
+  <div class="pub">
+    <strong>Book chapter</strong> <em>(in progress)</em>: The role of government and community in snakebite management.
+  </div>
+
+  <div style="margin-top:40px">
+    <div class="h2sub">Credentials &amp; Certifications</div>
+    <div class="creds-grid">
+      <div class="credgroup"><h3>Research &amp; Regulatory</h3><ul>
+        <li><b>Certified in Public Health (CPH)</b> — National Board of Public Health Examiners</li>
+        <li><b>ICH-GCP E6(R3)</b> — Good Clinical Practice</li>
+        <li><b>CITI Program</b> — Human Subjects Research; Responsible Conduct of Research; Conflicts of Interest; Research Involving Children</li>
+        <li><b>Epic for Research Coordinators</b></li>
+        <li><b>OnCore CTMS</b></li>
+        <li><b>Patient Privacy &amp; Confidentiality</b> — Johns Hopkins Medicine</li>
+      </ul></div>
+      <div class="credgroup"><h3>Clinical</h3><ul>
+        <li><b>Registered Medical Practitioner</b> — Gujarat Medical Council (G-84439)</li>
+        <li><b>Basic Life Support (BLS)</b></li>
+        <li><b>Blood Specimen Collection</b></li>
+        <li><b>LaQshya</b> — Medical Officers programme</li>
+        <li><b>AB-HWC EPMNS</b> — Elderly &amp; Palliative Care; Mental, Neurological &amp; Substance Abuse</li>
+      </ul></div>
+      <div class="credgroup"><h3>Professional Development</h3><ul>
+        <li><b>Project Management &amp; Planning Specialization</b> — Johns Hopkins University / Coursera</li>
+        <li>&nbsp;&nbsp;Fundamentals of Project Management · Project Execution &amp; Control · Managing Data Analysis</li>
+        <li><b>AI in Healthcare</b> — Johns Hopkins University / Great Learning</li>
+        <li><b>Teaching Assistantship Training</b> — Johns Hopkins University</li>
+        <li><b>IHIP-IDSP Disease Surveillance</b> · <b>Leprosy Case Detection (NLEP)</b></li>
+      </ul></div>
+    </div>
+    <p style="margin-top:26px;font-size:14.6px;color:var(--ink-2)"><b>Professional memberships:</b> Gujarat Medical Council &middot; AIMSA &middot; Student Network Organization (SNO) &middot; CLIRNET &middot; MEDFLIX &middot; Gujarat University Startup &amp; Entrepreneurship Council (GUSEC)</p>
+  </div>
+</div>
+</section>
+
+<section class="contact" id="contact"><div class="wrap">
+  <div class="h2sub">Open to Clinical Research Coordinator roles in North Carolina</div>
+  <p>Relocating to North Carolina. Available for academic medical center, CRO, industry, and site-based research positions.</p>
+  <div class="cta">
+    <a class="btn btn-w" href="mailto:patelnidhikirankumar1@gmail.com">patelnidhikirankumar1@gmail.com</a>
+    <a class="btn btn-o" href="tel:+16149673027">(614) 967-3027</a>
+    <a class="btn btn-o" href="https://linkedin.com/in/patelnidhik14" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">© 2026 Nidhi Kirankumar Patel · MPH, CPH</div></footer>
+
+</body>
+</html>
